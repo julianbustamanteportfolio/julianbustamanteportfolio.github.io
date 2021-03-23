@@ -81,6 +81,12 @@ class About extends React.Component{
                                             }
                                 </div>
                                 <div className="title-box-2">
+                                                <h6 className="title-left">
+                                                <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Check out my resume </a>
+                                                </h6>
+                                                
+                                            </div>
+                                <div className="title-box-2">
                                                 <h5 className="title-left">
                                                 Technical Skills
                                                 </h5>

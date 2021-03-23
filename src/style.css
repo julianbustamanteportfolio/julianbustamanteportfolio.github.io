@@ -20,6 +20,9 @@ h5 {
   text-align: center;
 }
 
+h6 {
+  text-align: left;
+}
 a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;

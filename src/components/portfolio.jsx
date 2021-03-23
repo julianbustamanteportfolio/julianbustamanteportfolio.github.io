@@ -49,7 +49,7 @@ class Portfolio extends React.Component{
                           
                             <h2 className="w-title">AUTHPYMES</h2>
                             <div className="w-more">
-                              <p> This is a web application for authentication of natural person and legal representative by means of facial Recognition. With an intuitive interface and easy to use. Deployed on a secure SSL certificate to protected the data of our users.</p>
+                              <p> This is a web application created for the Banco de Occidente based on authentication of natural person and legal representative by means of facial Recognition. With an intuitive interface and easy to use. Deployed on a secure SSL certificate to protected the data of our users.</p>
                               <h6><a href="https://authpymes.vercel.app/" target="_blank" rel="noopener noreferrer">Demo Project</a></h6>
                               <span className="w-ctegory">Technologies: Python ReactJS Django CSS Styled-Component</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
                             </div>
