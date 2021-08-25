@@ -1,17 +1,19 @@
 import React from 'react';
 
+//import disney from '../images/disney.png';
+import disney from '../img/disney.JPG';
+
+//import platzi store
+import PlatziStore from '../img/platzifood.JPG';
+
 //import authpymes
 import authpymes from "../img/authpymes.jpg";
-
 
 //airbnb
 import airbnb from "../img/airbnb.JPG";
 
-
-
 //landing-curved
 import landing from "../img/landing-curved.JPG";
-
 
 //import simpleShell
 import simpleShell from "../img/simple-shell.png";
@@ -38,6 +40,64 @@ class Portfolio extends React.Component{
                 </div>
               </div>
               <div className="row">
+              <div className="col-md-6">
+                  <div className="work-box">
+                    <a href={disney} data-lightbox="gallery-aguadeluz">
+                      <div className="work-img"> 
+                        <img src={disney} alt="" className="img-fluid"/>
+                        
+                      </div> </a>
+                      <div className="work-content">
+                        
+                            <h2 className="w-title"><a href="https://disney-plus-react-clone.vercel.app/" target="_blank" rel="noopener noreferrer">Disney Plus Clone</a></h2>
+                            
+                            <div className="w-more">
+                              <p>Clone of the Disney Plus Website, developed in React-Redux </p>
+                            
+                              <h6><a href="https://disney-plus-react-clone.vercel.app/" target="_blank" rel="noopener noreferrer">Demo Project</a></h6>
+                              <span className="w-ctegory">Technologies: React Firebase Styled-Component</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                              
+                             
+                           
+                         
+                        </div>
+                      </div>
+                    
+                    {/* <a href={aguaDeLuz1} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
+                    <a href={aguaDeLuz2} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
+                    <a href={aguaDeLuz3} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
+                    <a href={aguaDeLuz4} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a> */}
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="work-box">
+                    <a href={PlatziStore} data-lightbox="gallery-aguadeluz">
+                      <div className="work-img"> 
+                        <img src={PlatziStore} alt="" className="img-fluid"/>
+                        
+                      </div> </a>
+                      <div className="work-content">
+                        
+                            <h2 className="w-title"><a href="https://platzifood-tailwind-css.vercel.app/" target="_blank" rel="noopener noreferrer">Platzi Store</a></h2>
+                            
+                            <div className="w-more">
+                              <p>Project of the Tailwind-CSS Course Platzi, HTML static page from Platzi Food</p>
+                            
+                              <h6><a href="https://platzifood-tailwind-css.vercel.app/" target="_blank" rel="noopener noreferrer">Demo Project</a></h6>
+                              <span className="w-ctegory">Technologies: Tailwind, CSS, HTML </span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                              
+                             
+                           
+                         
+                        </div>
+                      </div>
+                    
+                    {/* <a href={aguaDeLuz1} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
+                    <a href={aguaDeLuz2} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
+                    <a href={aguaDeLuz3} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
+                    <a href={aguaDeLuz4} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a> */}
+                  </div>
+                </div>
                 <div className="col-md-6">
                   <div className="work-box">
                     <a href={authpymes} data-lightbox="gallery-vmarine">
