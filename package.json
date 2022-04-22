@@ -14,6 +14,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
+    "react-icons": "^4.3.1",
     "react-scripts": "3.0.1",
     "react-typed": "^1.2.0",
     "typed.js": "^2.0.11"
@@ -45,6 +46,8 @@
     "@iconify-icons/ion": "^1.1.2",
     "@iconify-icons/logos": "^1.1.9",
     "@iconify-icons/simple-icons": "^1.1.16",
+    "@iconify/icons-carbon": "^1.2.4",
+    "@iconify/icons-prime": "^1.2.1",
     "@iconify/react": "^1.1.4"
   }
 }

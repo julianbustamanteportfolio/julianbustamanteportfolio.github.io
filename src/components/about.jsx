@@ -10,6 +10,8 @@ import mysqlIcon from '@iconify-icons/simple-icons/mysql';
 import javascriptIcon from '@iconify-icons/simple-icons/javascript';
 import pythonIcon from '@iconify-icons/simple-icons/python';
 import html5Icon from '@iconify-icons/simple-icons/html5';
+import documentTasks from '@iconify/icons-carbon/document-tasks';
+
 
 
 class About extends React.Component{
@@ -80,6 +82,24 @@ class About extends React.Component{
                                                 })
                                             }
                                 </div>
+                                <div className="title-box-2">
+                                                <h5 className="title-left">
+                                                
+                                                <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Download my resume
+                                                 
+                                                </a>
+                                                 
+                                                </h5>
+                                                <div className="technical" id="resume">
+                                                <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer"> 
+                                <ul>
+                                                <li><span className="ico-circle"><Icon icon={documentTasks}  className="icon-react"/></span></li>
+                                                </ul>
+                                                </a>
+                                                </div>
+                                                
+
+                                            </div>
                                 <div className="title-box-2">
                                                 <h5 className="title-left">
                                                 Technical Skills
