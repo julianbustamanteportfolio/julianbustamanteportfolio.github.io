@@ -45,6 +45,7 @@
     "@iconify-icons/ion": "^1.1.2",
     "@iconify-icons/logos": "^1.1.9",
     "@iconify-icons/simple-icons": "^1.1.16",
+    "@iconify/icons-carbon": "^1.2.5",
     "@iconify/react": "^1.1.4"
   }
 }
