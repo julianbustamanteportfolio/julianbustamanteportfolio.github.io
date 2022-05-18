@@ -85,10 +85,10 @@ a:hover {
   background-size: cover;
   background-position: center center;
 }
-
+/* 
 .overlay-mf {
   background-color: #03a9f4;
-}
+} */
 
 .overlay-mf {
   position: absolute;

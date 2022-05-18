@@ -13,7 +13,6 @@ import html5Icon from '@iconify-icons/simple-icons/html5';
 import documentTasks from '@iconify/icons-carbon/document-tasks';
 
 
-
 class About extends React.Component{
     constructor(){
         super();

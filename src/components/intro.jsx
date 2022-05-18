@@ -16,7 +16,7 @@ class Intro extends React.Component{
                 <div className="container">
                   <h1 className="intro-title mb-4">Hello, I'm Ricardo Arquímedes</h1>
                   <p className="intro-subtitle"><span className="text-slider-items">
-                    </span><strong className="text-slider"><Typed strings={['FullStack Developer', 'Creating amazing things!']} typeSpeed = {80} backDelay = {1100} backSpeed = {30} loop/></strong></p>
+                    </span><strong className="text-slider"><Typed strings={['Frontend Developer', 'Creating amazing things!']} typeSpeed = {80} backDelay = {1100} backSpeed = {30} loop/></strong></p>
                   <p className="pt-3"><a className="btn btn-primary btn js-scroll px-4" href="#about" role="button">View My Work</a></p>
                 </div>
               </div>
