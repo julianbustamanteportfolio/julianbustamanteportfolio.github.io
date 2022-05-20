@@ -11,6 +11,8 @@ import javascriptIcon from '@iconify-icons/simple-icons/javascript';
 import pythonIcon from '@iconify-icons/simple-icons/python';
 import html5Icon from '@iconify-icons/simple-icons/html5';
 import documentTasks from '@iconify/icons-carbon/document-tasks';
+import angularIcon from '@iconify/icons-simple-icons/angular';
+import amazonawsIcon from '@iconify/icons-simple-icons/amazonaws';
 
 
 class About extends React.Component{
@@ -28,8 +30,8 @@ class About extends React.Component{
                 {id:"Wordpress_skill", content: "Wordpress",porcentage: "80%", value: "80"}
             ],
             about_me:[
-                {id: "first-p-about",content: "Fullstack Software Developer with more than five years of experience in Information and Communications Technology, Digital Social Media, Customer Service, and Administrative Process."},
-                {id: "second-p-about", content: "Great ability to create, propose, solve problems and work in a team, open to learn and share new knowledge, trending programming languages, and technologies."},
+                {id: "first-p-about",content: "Fullstack Software Developer with more than five years of experience in communications, technology, digital social media and customer service"},
+                {id: "second-p-about", content: "Great ability to propose and create SOLUTIONS to problems and work in a team, open to learn and share new trends and knowledges."},
                 {id: "third-p-about", content: " "}
             ]
         }
@@ -43,17 +45,6 @@ class About extends React.Component{
                         <div className="col-sm-12">
                             <div className="box-shadow-full">
                                 <div className="row">
-                                    {/* <div className="col-md-6">
-                                        <div className="row">
-                                            <div className="col-sm-6 col-md-5" style={{margin: "0 auto"}}>
-                                                <div className="about-img" style={{textAlign: "center"}}>
-                                                    <img src={myImage} className="img-fluid rounded b-shadow-a" alt=""/>
-                                                </div>
-                                            </div>
-                                    
-                                        </div>
-                                       
-                                    </div> */}
                                     
                                         <div className="col-sm-6 col-md-5" style={{margin: "0 auto"}}>
                                                 <div className="about-img" style={{textAlign: "center"}}>
@@ -112,12 +103,13 @@ class About extends React.Component{
                                 <li><span className="ico-circle"><Icon icon={html5Icon}  className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={logoCss3}  className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={pythonIcon}  className="icon-react"/></span></li>
-                                
+                                <li><span className="ico-circle"><Icon icon={mysqlIcon} className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={logoReact} className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={gitIcon} className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={bashIcon} className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={styledComponents} className="icon-react"/></span></li>
-                                <li><span className="ico-circle"><Icon icon={mysqlIcon} className="icon-react"/></span></li>
+                                <li><span className="ico-circle"><Icon icon={angularIcon} className="icon-react"/></span></li>
+                                <li><span className="ico-circle"><Icon icon={amazonawsIcon} className="icon-react"/></span></li>
                                 
                                 </ul>
                             </div>

@@ -335,7 +335,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
-  z-index: 11;
+  z-index: 11; 
 }
 
 .back-to-top i {
