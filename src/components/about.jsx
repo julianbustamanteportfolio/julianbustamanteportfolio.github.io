@@ -18,16 +18,16 @@ class About extends React.Component{
     constructor(){
         super();
         this.state = {
-            skills:[
-                {id:"HTML5_skill", content: "HTML5"},
-                {id:"CSS3_skill", content: "CSS3",porcentage: "75%", value: "75"},
-                {id:"JavaScript_skill", content: "JavaScript",porcentage: "90%", value: "90"},
-                {id:"PHP_skill", content: "PHP",porcentage: "70%", value: "70"},
-                {id:"ReactJS_skill", content: "ReactJS",porcentage: "80%", value: "80"},
-                {id:"Python_skill", content: "Python",porcentage: "75%", value: "75"},
-                {id:"VanillaJS_skill", content: "VanillaJS",porcentage: "85%", value: "85"},
-                {id:"Wordpress_skill", content: "Wordpress",porcentage: "80%", value: "80"}
-            ],
+            // skills:[
+            //     {id:"HTML5_skill", content: "HTML5"},
+            //     {id:"CSS3_skill", content: "CSS3",porcentage: "75%", value: "75"},
+            //     {id:"JavaScript_skill", content: "JavaScript",porcentage: "90%", value: "90"},
+            //     {id:"PHP_skill", content: "PHP",porcentage: "70%", value: "70"},
+            //     {id:"ReactJS_skill", content: "ReactJS",porcentage: "80%", value: "80"},
+            //     {id:"Python_skill", content: "Python",porcentage: "75%", value: "75"},
+            //     {id:"VanillaJS_skill", content: "VanillaJS",porcentage: "85%", value: "85"},
+            //     {id:"Wordpress_skill", content: "Wordpress",porcentage: "80%", value: "80"}
+            // ],
             about_me:[
                 {id: "first-p-about",content: "Soy Media Digital Specialist con experiencia en Planificación de medios digitales, implemento campañas de pauta digital en Facebook Ads, Google Ads, Linkedin Ads y Twitter Ads con el objetivo de crecimiento hacia performance o ventas en e-Commerce. 🛒"},
                 {id: "second-p-about", content: "📊 Configuro e Integro eventos de medición y conversión con Google Tag Manager para la obtención de KPI's para el marketing basado en datos. Analizo e interpreto insights, tendencias y datos como resultados de campañas por medio de Google Analytics"},
@@ -74,22 +74,23 @@ class About extends React.Component{
                                 <div className="title-box-2">
                                                 <h5 className="title-left">
                                                 
-                                                <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Descarga mí curriculum
+                                                {/* <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                                     Descarga mí Curriculum
                                                  
-                                                </a>
+                                                </a> */}
                                                  
                                                 </h5>
                                                 <div className="technical" id="resume">
-                                                <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer"> 
+                                                {/* <a href="" target="_blank" rel="noopener noreferrer">  */}
                                 <ul>
                                                 <li><span className="ico-circle"><Icon icon={documentTasks}  className="icon-react"/></span></li>
                                                 </ul>
-                                                </a>
+                                                {/* </a> */}
                                                 </div>
                                                 
 
                                             </div>
-                                <div className="title-box-2">
+                                {/* <div className="title-box-2">
                                                 <h5 className="title-left">
                                                 Technical Skills
                                                 </h5>
@@ -110,7 +111,7 @@ class About extends React.Component{
                                 <li><span className="ico-circle"><Icon icon={amazonawsIcon} className="icon-react"/></span></li>
                                 
                                 </ul>
-                            </div>
+                            </div> */}
                             </div>
                         </div>
                     </div>
