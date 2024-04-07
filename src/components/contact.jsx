@@ -14,27 +14,27 @@ class Contact extends React.Component{
                         <div id="contact" className="box-shadow-full">
                         <div className="title-box-2 pt-4 pt-md-0">
                                 <h5 className="title-left">
-                                Get in Touch
+                                Contáctame
                                 </h5>
                             </div>
                             <div className="more-info">
                                 <p className="lead">
-                                    Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.<br />
-                                   
+                                ¡Me encantaría conectar contigo! 🤝
                                 </p>
                                  <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> Medellín, Colombia </li>
-                                <li><span class="ion-ios-telephone"></span> +57 317 339 2744</li>
-                                <li><span class="ion-email"></span> <a href="mailto:richardcqt28@gmail.com?Subject=Contact%Me"  target="_blank" rel="noopener noreferrer">richardcqt28@gmail.com</a></li>
+                                <li><span class="ion-ios-telephone"></span> +57 301 230 0288</li>
+                                <li><span class="ion-email"></span> <a href="mailto:julianbcadavid@gmail.com?Subject=Contact%Me"  target="_blank" rel="noopener noreferrer"> Contáctame a mi correo julianbcadavid@gmail.com o deja un mensaje.</a></li>
                                 </ul> 
                             </div>
                             <div className="socials">
                                 <ul>
                                 
-                                <li><a href="https://github.com/RicardoArquimedes" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-github"></i></span></a></li>
-                                <li><a href="https://www.linkedin.com/in/ricardoarquimedes/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-linkedin"></i></span></a></li>
+
+                                <li><a href="https://www.linkedin.com/in/julianbcadavid/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-linkedin"></i></span></a></li>
+                                <li><a href="https://github.com/RicardoArquimedes" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-instagram"></i></span></a></li>
                                 <li><a href="https://twitter.com/arquimedescq/" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-twitter"></i></span></a></li>
-                                <li><a href="https://wa.me/+573173392744" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-whatsapp"></i></span></a></li>
+                                <li><a href="https://wa.me/+573012300288" target="_blank" rel="noopener noreferrer"><span className="ico-circle"><i className="ion-social-whatsapp"></i></span></a></li>
                                 </ul>
                             </div>
                         <div className="row">
@@ -58,7 +58,7 @@ class Contact extends React.Component{
                     <div className="row">
                     <div className="col-sm-12">
                         <div className="copyright-box">
-                        <p className="copyright"> <strong> &copy; Ricardo Arquímedes -  2021  </strong></p>
+                        <p className="copyright"> <strong> &copy; Julián Bustamante -  2024  </strong></p>
                         </div>
                     </div>
                     </div>

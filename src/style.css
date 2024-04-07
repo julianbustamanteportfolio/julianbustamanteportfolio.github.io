@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: #03a9f4;
+  color: #5E7297;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .color-a {
-  color: #03a9f4;
+  color: #5E7297;
 }
 
 .color-d {
@@ -87,7 +87,7 @@ a:hover {
 }
 /* 
 .overlay-mf {
-  background-color: #03a9f4;
+  background-color: #5E7297;
 } */
 
 .overlay-mf {
@@ -158,7 +158,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #03a9f4;
+  background-color: #5E7297;
   margin: 0 auto;
 }
 
@@ -177,7 +177,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #03a9f4;
+  background-color: #5E7297;
   width: 100px;
   bottom: -12px;
 }
@@ -214,12 +214,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #03a9f4;
+  box-shadow: 0 0 0 3px #5E7297;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #03a9f4;
+  background-color: #5E7297;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -244,7 +244,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #03a9f4;
+  color: #5E7297;
   margin-right: 10px;
 }
 
@@ -258,7 +258,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #03a9f4;
+  box-shadow: 0 0 0 10px #5E7297;
   display: block;
 }
 
@@ -305,7 +305,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #03a9f4;
+  background-color: #5E7297;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -324,7 +324,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #03a9f4;
+  background: #5E7297;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -362,7 +362,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #03a9f4;
+  border-top: 6px solid #5E7297;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -476,7 +476,7 @@ NAVBAR
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #03A9F4;
+  background-color: #11151C;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -486,7 +486,7 @@ NAVBAR
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #03a9f4;
+  background-color: #fff;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
@@ -533,13 +533,13 @@ NAVBAR
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #03a9f4;
+  background-color: #5E7297;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #03a9f4;
+  background-color: #5E7297;
 }
 
 /* Hamburger Navbar */
@@ -653,7 +653,7 @@ INTRO
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #03a9f4;
+  color: #5E7297;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -700,7 +700,7 @@ ABOUT
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #03a9f4;
+  background-color: #5E7297;
 }
 
 /*
@@ -738,17 +738,17 @@ PORTFOLIO
 }
 
 .work-content .w-more .w-ctegory {
-  color: #03a9f4;
+  color: #5E7297;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #03a9f4;
+  color: #5E7297;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #03a9f4;
+  color: #5E7297;
 }
 
 .work-content .w-like .num-like {
@@ -791,7 +791,7 @@ TESTIMONIALS
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #03a9f4;
+  color: #5E7297;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -832,8 +832,8 @@ CONTACT
 */
 
 #sendmessage {
-  color: #03a9f4;
-  border: 1px solid #03a9f4;
+  color: #5E7297;
+  border: 1px solid #5E7297;
   display: none;
   text-align: center;
   padding: 15px;
@@ -896,7 +896,7 @@ BUTTON
 }
 
 .button-a {
-  background-color: #03a9f4;
+  background-color: #5E7297;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -915,6 +915,21 @@ BUTTON
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: .3rem;
+}
+
+.btn-primary {
+  background-color: #11151C !important;
+  border-color: transparent !important;
+}
+
+.btn-primary:hover {
+  box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.2);
+}
+
+.btn-primary:active, .btn-primary:focus, .btn:focus {
+  border-color: transparent !important;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1); /* Sombra blanca sutil */
+  transition: box-shadow 0.3s ease; /* Transición suave */
 }
 
 @media (min-width: 577px) {
@@ -1043,12 +1058,12 @@ svg.icon-react {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 10px 0;
-  box-shadow: 0 0 0 3px #03a9f4;
+  box-shadow: 0 0 0 3px #5E7297;
   transition: all 500ms ease;
 }
 
 .technical .ico-circle:hover {
-  background-color: #03a9f4;
+  background-color: #5E7297;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;

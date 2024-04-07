@@ -1,10 +1,9 @@
 import React from 'react';
-import myImage from "../img/Ricardo.jpg";
+import myImage from "../img/julianB.jpg";
 import { Icon } from '@iconify/react';
 import logoReact from '@iconify-icons/ion/logo-react';
 import logoCss3 from '@iconify-icons/ion/logo-css3';
 import bashIcon from '@iconify-icons/logos/bash-icon';
-import styledComponents from '@iconify-icons/simple-icons/styled-components';
 import gitIcon from '@iconify-icons/simple-icons/git';
 import mysqlIcon from '@iconify-icons/simple-icons/mysql';
 import javascriptIcon from '@iconify-icons/simple-icons/javascript';
@@ -30,9 +29,9 @@ class About extends React.Component{
                 {id:"Wordpress_skill", content: "Wordpress",porcentage: "80%", value: "80"}
             ],
             about_me:[
-                {id: "first-p-about",content: "Fullstack Software Developer with more than five years of experience in communications, technology, digital social media and customer service"},
-                {id: "second-p-about", content: "Great ability to propose and create SOLUTIONS to problems and work in a team, open to learn and share new trends and knowledges."},
-                {id: "third-p-about", content: " "}
+                {id: "first-p-about",content: "Soy Media Digital Specialist con experiencia en Planificación de medios digitales, implemento campañas de pauta digital en Facebook Ads, Google Ads, Linkedin Ads y Twitter Ads con el objetivo de crecimiento hacia performance o ventas en e-Commerce. 🛒"},
+                {id: "second-p-about", content: "📊 Configuro e Integro eventos de medición y conversión con Google Tag Manager para la obtención de KPI's para el marketing basado en datos. Analizo e interpreto insights, tendencias y datos como resultados de campañas por medio de Google Analytics"},
+                {id: "third-p-about", content: "💡También poseo experiencia en compra de medios como Programmatic, Waze y Spotify. Soy autodidacta, proactivo, me gusta la investigación y el pensamiento estratégico. "}
             ]
         }
     }
@@ -53,7 +52,7 @@ class About extends React.Component{
 
                                                 <div className="title-box-2">
                                                 <h5 className="title-left">
-                                                About Me
+                                                Sobre Mí
                                                 </h5>
                                                 
                                             </div>
@@ -75,7 +74,7 @@ class About extends React.Component{
                                 <div className="title-box-2">
                                                 <h5 className="title-left">
                                                 
-                                                <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Download my resume
+                                                <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Descarga mí curriculum
                                                  
                                                 </a>
                                                  
@@ -107,7 +106,6 @@ class About extends React.Component{
                                 <li><span className="ico-circle"><Icon icon={logoReact} className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={gitIcon} className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={bashIcon} className="icon-react"/></span></li>
-                                <li><span className="ico-circle"><Icon icon={styledComponents} className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={angularIcon} className="icon-react"/></span></li>
                                 <li><span className="ico-circle"><Icon icon={amazonawsIcon} className="icon-react"/></span></li>
                                 
