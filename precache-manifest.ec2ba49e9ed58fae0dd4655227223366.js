@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1d54578196d300047ce3934a9db4fed",
+    "revision": "6c7e75e23ed8d5a100ae9d78437d7983",
     "url": "/index.html"
   },
   {
-    "revision": "79a685c7bb864a6ed278",
-    "url": "/static/css/2.5de2e9f9.chunk.css"
+    "revision": "60e3879be6cdf54c8a81",
+    "url": "/static/css/2.ff0d34db.chunk.css"
   },
   {
-    "revision": "721dd9487590da69c8fd",
-    "url": "/static/css/main.0d5713db.chunk.css"
+    "revision": "c87afa026006fe3ab4a3",
+    "url": "/static/css/main.4c491804.chunk.css"
   },
   {
-    "revision": "79a685c7bb864a6ed278",
-    "url": "/static/js/2.4cf1e867.chunk.js"
+    "revision": "60e3879be6cdf54c8a81",
+    "url": "/static/js/2.f0cc948c.chunk.js"
   },
   {
-    "revision": "721dd9487590da69c8fd",
-    "url": "/static/js/main.c6ea49d3.chunk.js"
+    "revision": "c87afa026006fe3ab4a3",
+    "url": "/static/js/main.e6a38050.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
-  },
-  {
-    "revision": "b59952111e8774b3a8a2219d1497bda8",
-    "url": "/static/media/Ricardo.b5995211.jpg"
   },
   {
     "revision": "abed55e2c7093c480d41d8376b0c8ff7",
@@ -34,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5f311ad477e20eca31297ab5b5d2173b",
     "url": "/static/media/authpymes.5f311ad4.jpg"
+  },
+  {
+    "revision": "866bf994deaaab5dca3febcc583b326e",
+    "url": "/static/media/background-banner.866bf994.jpg"
   },
   {
     "revision": "41961dddc456e64edcdd18c1978c03d6",
@@ -84,12 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ionicons.621bd386.svg"
   },
   {
-    "revision": "14c8a939b9525d41dc557fa19663c558",
-    "url": "/static/media/landing-curved.14c8a939.JPG"
+    "revision": "4e425755523cb88616411783f3f080b8",
+    "url": "/static/media/julianB.4e425755.jpg"
   },
   {
-    "revision": "b59952111e8774b3a8a2219d1497bda8",
-    "url": "/static/media/logo-white.b5995211.jpg"
+    "revision": "14c8a939b9525d41dc557fa19663c558",
+    "url": "/static/media/landing-curved.14c8a939.JPG"
   },
   {
     "revision": "d7171005f81a3e7551ae2bb311992fdc",
