@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212f45;
+  color: #11151C;
  
 }
 
@@ -289,7 +289,7 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #11151C;
   width: 25px;
 }
 
@@ -440,7 +440,7 @@ NAVBAR
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #1B1B1B;
+  color: #11151C;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -505,7 +505,7 @@ NAVBAR
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #11151C;
 }
 
 .navbar-b .navbar-brand {
