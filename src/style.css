@@ -2,7 +2,7 @@
 GENERAL STYLING
 */
 body {
-  background-color: #f5f5f5!important;
+  background-color: #fff !important;
   color: #4e4e4e!important;
 }
 
@@ -1068,3 +1068,89 @@ svg.icon-react {
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
+
+
+/* CAROUSEL */
+.carousel {
+  position: relative;
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
+}
+
+.carousel-container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  height: 100%;
+  width: 400%; /* Aumenta el ancho del carrusel para acomodar 4 elementos */
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 25%; /* Cada elemento ocupa 25% del ancho del carrusel */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img,
+.carousel-item video {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+  height: 100%; /* Asegura que las imágenes ocupen toda la altura disponible */
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.carousel-control {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.swiperContainer {
+  overflow-x: hidden;
+  margin-top: 25px;
+  padding: 0 2rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+}
+
+
+ 
+.swiper-pagination-bullet-active {
+  background-color: rgb(255, 162, 0);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet {
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  margin-right: 6px;
+  opacity: 0.5;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+

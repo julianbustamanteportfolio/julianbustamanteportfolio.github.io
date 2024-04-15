@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c7e75e23ed8d5a100ae9d78437d7983",
+    "revision": "abdd74a1d51497cd6579b2d86d58f106",
     "url": "/index.html"
   },
   {
-    "revision": "60e3879be6cdf54c8a81",
+    "revision": "d08e41650004c119ae3c",
     "url": "/static/css/2.ff0d34db.chunk.css"
   },
   {
-    "revision": "c87afa026006fe3ab4a3",
+    "revision": "41c6b1a560b4cbc22a9f",
     "url": "/static/css/main.4c491804.chunk.css"
   },
   {
-    "revision": "60e3879be6cdf54c8a81",
-    "url": "/static/js/2.f0cc948c.chunk.js"
+    "revision": "d08e41650004c119ae3c",
+    "url": "/static/js/2.cf51283e.chunk.js"
   },
   {
-    "revision": "c87afa026006fe3ab4a3",
-    "url": "/static/js/main.e6a38050.chunk.js"
+    "revision": "41c6b1a560b4cbc22a9f",
+    "url": "/static/js/main.5562c345.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "41961dddc456e64edcdd18c1978c03d6",
     "url": "/static/media/disney.41961ddd.JPG"
-  },
-  {
-    "revision": "67af05e12311bac06327b43ca31e166b",
-    "url": "/static/media/earth.67af05e1.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",

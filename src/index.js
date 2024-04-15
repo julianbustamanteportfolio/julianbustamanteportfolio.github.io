@@ -39,7 +39,7 @@ ReactDOM.render(
         <Portfolio />
         <About />
         <Contact />
-        <BackToTop />
+        <BackToTop />a
         <Preloader />
     </React.Fragment>,
 document.getElementById('root'));
