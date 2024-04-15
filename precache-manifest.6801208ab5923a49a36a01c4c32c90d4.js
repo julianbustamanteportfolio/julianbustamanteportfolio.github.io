@@ -1,43 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abdd74a1d51497cd6579b2d86d58f106",
+    "revision": "c4c3837e99974d833a63146988d12589",
     "url": "/index.html"
   },
   {
-    "revision": "d08e41650004c119ae3c",
-    "url": "/static/css/2.ff0d34db.chunk.css"
+    "revision": "8a05f3db730c7c8d6875",
+    "url": "/static/css/2.1275d5ef.chunk.css"
   },
   {
-    "revision": "41c6b1a560b4cbc22a9f",
-    "url": "/static/css/main.4c491804.chunk.css"
+    "revision": "efe6a5218a1050b7a625",
+    "url": "/static/css/main.a1d0a0e7.chunk.css"
   },
   {
-    "revision": "d08e41650004c119ae3c",
-    "url": "/static/js/2.cf51283e.chunk.js"
+    "revision": "8a05f3db730c7c8d6875",
+    "url": "/static/js/2.58bb8896.chunk.js"
   },
   {
-    "revision": "41c6b1a560b4cbc22a9f",
-    "url": "/static/js/main.5562c345.chunk.js"
+    "revision": "efe6a5218a1050b7a625",
+    "url": "/static/js/main.32b8ff51.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "abed55e2c7093c480d41d8376b0c8ff7",
-    "url": "/static/media/airbnb.abed55e2.JPG"
-  },
-  {
-    "revision": "5f311ad477e20eca31297ab5b5d2173b",
-    "url": "/static/media/authpymes.5f311ad4.jpg"
-  },
-  {
     "revision": "866bf994deaaab5dca3febcc583b326e",
     "url": "/static/media/background-banner.866bf994.jpg"
-  },
-  {
-    "revision": "41961dddc456e64edcdd18c1978c03d6",
-    "url": "/static/media/disney.41961ddd.JPG"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -60,8 +48,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "401c39ed739738c4449c148a9853d663",
-    "url": "/static/media/google-chrome.401c39ed.png"
+    "revision": "eabbfa6787d3e2362f83a8bbb8d66d14",
+    "url": "/static/media/image-1.eabbfa67.png"
+  },
+  {
+    "revision": "7389c86b0b65cc7ae7ea79c426348a75",
+    "url": "/static/media/image-2.7389c86b.png"
+  },
+  {
+    "revision": "c81b1418146b30d47e2522219c3f5e5a",
+    "url": "/static/media/image-3.c81b1418.png"
+  },
+  {
+    "revision": "a24c86493f4fca118e23bb58d3686b2a",
+    "url": "/static/media/image-4.a24c8649.png"
+  },
+  {
+    "revision": "a0c1d5280a9d064d9e15b0c7f1ca014b",
+    "url": "/static/media/image-5.a0c1d528.png"
+  },
+  {
+    "revision": "b94afdbadcd1d009ab256e6e51cd01f9",
+    "url": "/static/media/image-6.b94afdba.png"
+  },
+  {
+    "revision": "385653d40135d08d31de747ec09a8ea8",
+    "url": "/static/media/image-7.385653d4.png"
   },
   {
     "revision": "05acfdb568b3df49ad31355b19495d4a",
@@ -84,19 +96,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/julianB.4e425755.jpg"
   },
   {
-    "revision": "14c8a939b9525d41dc557fa19663c558",
-    "url": "/static/media/landing-curved.14c8a939.JPG"
+    "revision": "3c37539e9ccb841d868039073e0ed785",
+    "url": "/static/media/video-1.3c37539e.mov"
   },
   {
-    "revision": "d7171005f81a3e7551ae2bb311992fdc",
-    "url": "/static/media/platzifood.d7171005.JPG"
-  },
-  {
-    "revision": "2cf8bd011f0f59603e6561d1e183de32",
-    "url": "/static/media/simple-shell.2cf8bd01.png"
-  },
-  {
-    "revision": "b63490dc9483f1a7fd49eba3c98d6c3a",
-    "url": "/static/media/twitter-clone.b63490dc.png"
+    "revision": "88a1274bbb99660568a1d53a391e92ba",
+    "url": "/static/media/video-2.88a1274b.mov"
   }
 ]);
