@@ -1,63 +1,67 @@
 import React from 'react';
 import Carousel from './Carousel';
-import image1 from '../img/portfolio/chevrolet/image-1.png';
-import image2 from '../img/portfolio/chevrolet/image-2.png';
-import image3 from '../img/portfolio/chevrolet/image-3.png';
-import image4 from '../img/portfolio/chevrolet/image-4.png';
-import image5 from '../img/portfolio/chevrolet/image-5.png';
-import image6 from '../img/portfolio/chevrolet/image-6.png';
-import image7 from '../img/portfolio/chevrolet/image-7.png';
-import video1 from '../img/portfolio/chevrolet/video-1.mov';
-import video2 from '../img/portfolio/chevrolet/video-2.mov';
 
+// Function to require all images and videos dynamically from portfolio folders
+const importAllFromFolder = (context) => {
+  return context.keys().map(key => ({
+    type: key.includes('.mov') ? 'video' : 'image',
+    src: context(key),
+  }));
+};
 
-const items = [
-  { id: 1, type: 'image', src: image1 },
-  { id: 2, type: 'image', src: image2 },
-  { id: 3, type: 'image', src: image3 },
-  { id: 4, type: 'video', src: video1 },
-  { id: 5, type: 'image', src: image4 },
-  { id: 7, type: 'video', src: video2 },
-  { id: 8, type: 'image', src: image5 },
-  { id: 9, type: 'image', src: image6 },
-  { id: 10, type: 'image', src: image7 },
-];
-
+// Assuming you have a context for each folder in your portfolio
+const chevroletItems = importAllFromFolder(require.context('../img/portfolio/1-CHEVROLET', false, /\.(png|mov)$/));
+const cadillacItems = importAllFromFolder(require.context('../img/portfolio/2-CADILLAC', false, /\.(png|mov)$/));
+const converseItems = importAllFromFolder(require.context('../img/portfolio/3-CONVERSE', false, /\.(png|mov)$/));
+const credicorpBankItems = importAllFromFolder(require.context('../img/portfolio/4-CREDICORP BANK', false, /\.(png|mov)$/));
+const macStoreItems = importAllFromFolder(require.context('../img/portfolio/5-MAC STORE', false, /\.(png|mov)$/));
+const nespressoItems = importAllFromFolder(require.context('../img/portfolio/6-NESPRESSO', false, /\.(png|mov)$/));
+const suraItems = importAllFromFolder(require.context('../img/portfolio/7-SURA', false, /\.(png|mov)$/));
+const ssaaItems = importAllFromFolder(require.context('../img/portfolio/8-SSAA', false, /\.(png|mov)$/));
+const sexureroItems = importAllFromFolder(require.context('../img/portfolio/9-SEXURERO', false, /\.(png|mov)$/));
+const upLiftItems = importAllFromFolder(require.context('../img/portfolio/10-UPLIFT', false, /\.(png|mov)$/));
+// Add similar lines for other folders...
 
 class Portfolio extends React.Component {
-
-  render() {
+  // Create a method to render each portfolio section
+  renderPortfolioSection(title, items) {
     return (
+      <section id="work" className="portfolio-mf sect-pt4 route">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 ">
 
-      <><div>
-
-
-      </div><section id="work" className="portfolio-mf sect-pt4 route">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <div className="title-box text-center">
-                  <h3 className="title-a">
-                    Portfolio
-                  </h3>
-                  <p className="subtitle-a">
-                    {/* Check Out My Latest Projects. */}
-                  </p>
-                  <div className="line-mf"></div>
-                </div>
+              <div className="box-shadow-full carousel-row">
+              <div className="title-box text-center">
+                <h3 className="title-a">
+                  {title}
+                </h3>
+                <div className="line-mf"></div>
               </div>
-            </div>
-            <div className="row">
-              <div className="col-sm-12 ">
-                <div className="box-shadow-full carousel-row">
                 <Carousel items={items} />
-
-                </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+    );
+  }
 
-        </section></>
+  render() {
+    return (
+      <>
+        {this.renderPortfolioSection('Chevrolet', chevroletItems)}
+        {this.renderPortfolioSection('Cadillac', cadillacItems)}
+        {this.renderPortfolioSection('Converse', converseItems)}
+        {this.renderPortfolioSection('CrediCorp Bank', credicorpBankItems)}
+        {this.renderPortfolioSection('Mac Store', macStoreItems)}
+        {this.renderPortfolioSection('Nespresso', nespressoItems)}
+        {this.renderPortfolioSection('Sura', suraItems)}
+        {this.renderPortfolioSection('SSAA', ssaaItems)}
+        {this.renderPortfolioSection('Sexurero', sexureroItems)}
+        {this.renderPortfolioSection('Uplift', upLiftItems)}
+        {/* Render other sections by calling this.renderPortfolioSection with corresponding title and items */}
+      </>
     );
   }
 }
