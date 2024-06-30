@@ -81,11 +81,11 @@ class About extends React.Component{
                                                  
                                                 </h5>
                                                 <div className="technical" id="resume">
-                                                {/* <a href="" target="_blank" rel="noopener noreferrer">  */}
+                                                 <a href="https://drive.google.com/drive/folders/1bHSt5Nh_kq-N-S1gyLHE01Bid4IXujMg" target="_blank" rel="noopener noreferrer">
                                 <ul>
                                                 <li><span className="ico-circle"><Icon icon={documentTasks}  className="icon-react"/></span></li>
                                                 </ul>
-                                                {/* </a> */}
+                                                 </a>
                                                 </div>
                                                 
 
