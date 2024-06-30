@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from './Carousel';
+import campaignData from './campaignData.json'; // Importa el archivo JSON
 
 // Function to require all images and videos dynamically from portfolio folders
 const importAllFromFolder = (context) => {
@@ -25,20 +26,29 @@ const upLiftItems = importAllFromFolder(require.context('../img/portfolio/10-UPL
 class Portfolio extends React.Component {
   // Create a method to render each portfolio section
   renderPortfolioSection(title, items) {
+    const campaignInfo = campaignData[title]; // Obtener información de la campaña del JSON
+
     return (
       <section id="work" className="portfolio-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 ">
-
               <div className="box-shadow-full carousel-row">
-              <div className="title-box text-center">
-                <h3 className="title-a">
-                  {title}
-                </h3>
-                <div className="line-mf"></div>
-              </div>
+                <div className="title-box text-center">
+                  <h5 className="title-a">
+                    {title}
+                  </h5>
+                  <div className="line-mf"></div>
+                </div>
                 <Carousel items={items} />
+                {campaignInfo && (
+                  <div className="campaign-info">
+                    <p><strong>Objetivo de campaña:</strong> {campaignInfo.objetivo}</p>
+                    <p><strong>Plataforma:</strong> {campaignInfo.plataforma}</p>
+                    <p><strong>Estrategia de campaña y medición:</strong> {campaignInfo.estrategia}</p>
+                    <p><strong>Mercado:</strong> {campaignInfo.mercado}</p>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -49,7 +59,24 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <>
+      <div>
+        {/* Shared title section */}
+        <section id="work" className="portfolio-mf sect-pt4 route">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12 ">
+              <div className="title-box text-center">
+                <h3 className="title-a">
+                  Portafolio
+                </h3>
+                <div className="line-mf"></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Portfolio sections */}
         {this.renderPortfolioSection('Chevrolet', chevroletItems)}
         {this.renderPortfolioSection('Cadillac', cadillacItems)}
         {this.renderPortfolioSection('Converse', converseItems)}
@@ -60,8 +87,8 @@ class Portfolio extends React.Component {
         {this.renderPortfolioSection('SSAA', ssaaItems)}
         {this.renderPortfolioSection('Sexurero', sexureroItems)}
         {this.renderPortfolioSection('Uplift', upLiftItems)}
-        {/* Render other sections by calling this.renderPortfolioSection with corresponding title and items */}
-      </>
+        {/* ... Add additional sections as needed */}
+      </div>
     );
   }
 }

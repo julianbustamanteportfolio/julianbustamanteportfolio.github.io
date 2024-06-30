@@ -74,10 +74,10 @@ class About extends React.Component{
                                 <div className="title-box-2">
                                                 <h5 className="title-left">
                                                 
-                                                {/* <a href="https://drive.google.com/file/d/1yqR-5GphzktIz4NFwPRf9epYHDMP8u89/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                                 <a href="https://drive.google.com/drive/folders/1bHSt5Nh_kq-N-S1gyLHE01Bid4IXujMg" target="_blank" rel="noopener noreferrer">
                                                      Descarga mí Curriculum
                                                  
-                                                </a> */}
+                                                </a>
                                                  
                                                 </h5>
                                                 <div className="technical" id="resume">

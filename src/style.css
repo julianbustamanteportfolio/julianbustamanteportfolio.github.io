@@ -1153,4 +1153,27 @@ svg.icon-react {
   border-radius: 100%;
 }
 
+.campaign-info {
+  margin-top: 20px;
+}
+
+.campaign-info p {
+  margin: 0; /* Ejemplo de margen: 10px arriba y abajo, 0 a los lados */
+  padding: 0;   /* Ejemplo de relleno: 5px en todos los lados */
+}
+
+.companies-circle {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.icon-companies {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 

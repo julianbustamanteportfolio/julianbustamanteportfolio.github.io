@@ -49,7 +49,9 @@ const Carousel = ({ items }) => {
           {item.type === 'image' ? (
             <img className="carouselItem" src={item.src} alt={`Item ${item.id}`} />
           ) : (
-            <video className="carouselItem" controls src={item.src} >
+            <video className="carouselItem" controls src={item.src} autoPlay
+            muted
+            loop>
               Your browser does not support the video tag.
             </video>
           )}

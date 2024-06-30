@@ -1,0 +1,63 @@
+{
+    "Chevrolet": {
+      "objetivo": "Generación de clientes potenciales (leads)",
+      "plataforma": "Meta",
+      "estrategia": "CPL/CPR",
+      "mercado": "Panamá"
+    },
+    "Cadillac": {
+      "objetivo": "Generación de clientes potenciales (leads)",
+      "plataforma": "Meta",
+      "estrategia": "CPL/CPR",
+      "mercado": "Panamá"
+    },
+    "Converse": {
+      "objetivo": "Awareness y posicionamiento de marca",
+      "plataforma": "Meta, Display, Tik Tok, YouTube",
+      "estrategia": "CPM",
+      "mercado": "Centro América y Ecuador"
+    },
+    "Nespresso": {
+      "objetivo": "Purchase",
+      "plataforma": "Meta y SEM (Google Search y Shopping)",
+      "estrategia": "CPC/Conversión",
+      "mercado": "Panamá y República Dominicana"
+    },
+    "Sura": {
+      "objetivo": "Generación de clientes potenciales (leads)",
+      "plataforma": "Meta y SEM (Google Search)",
+      "estrategia": "CPL/CPR",
+      "mercado": "Panamá"
+    },
+    "CrediCorp Bank": {
+      "objetivo": "Generación de clientes potenciales (leads) y Reconocimiento de marca",
+      "plataforma": "Meta, SEM, YouTube, Display, Generación de Demanda, Performance Max, Programmatic",
+      "estrategia": "CPL/CPC/CPM",
+      "mercado": "Panamá"
+    },
+    "Mac Store": {
+      "objetivo": "Purchase",
+      "plataforma": "Meta, SEM, YouTube, Display, Tik Tok",
+      "estrategia": "CPR/Conversión-ROAS",
+      "mercado": "Panamá y República Dominicana"
+    },
+    "SSAA": {
+      "objetivo": "Posicionamiento de marca",
+      "plataforma": "Meta",
+      "estrategia": "CPM",
+      "mercado": "Panamá"
+    },
+    "Uplift": {
+      "objetivo": "Generación de clientes potenciales (leads)",
+      "plataforma": "Meta",
+      "estrategia": "CPL/CPR",
+      "mercado": "Panamá"
+    },
+    "Sexurero": {
+      "objetivo": "Generación de clientes potenciales (leads)",
+      "plataforma": "Meta",
+      "estrategia": "CPL/CPR",
+      "mercado": "USA, MX, ES, Sur América"
+    }
+  }
+  

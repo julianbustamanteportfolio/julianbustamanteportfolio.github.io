@@ -37,9 +37,8 @@
   }
   
   .carouselItem {
-    max-width: 100%;
+    max-width: 95%;
     max-height: 100%;
-    height: 310px;
     width: auto;
   }
 
@@ -47,4 +46,8 @@
     .carouselItem {
       height: auto; 
     }
+  }
+
+  .swiper-wrapper{
+    align-items: center;
   }
